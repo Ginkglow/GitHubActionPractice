@@ -1,0 +1,42 @@
+[debug] [2024-04-24T15:37:07.818Z] ----------------------------------------------------------------------
+[debug] [2024-04-24T15:37:07.820Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Viroj\Documents\CUCedt\softwareEng\GitHubActionPractice\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-04-24T15:37:07.821Z] CLI Version:   13.7.4
+[debug] [2024-04-24T15:37:07.821Z] Platform:      win32
+[debug] [2024-04-24T15:37:07.821Z] Node Version:  v20.11.1
+[debug] [2024-04-24T15:37:07.821Z] Time:          Wed Apr 24 2024 22:37:07 GMT+0700 (Indochina Time)
+[debug] [2024-04-24T15:37:07.821Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-24T15:37:07.937Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-24T15:37:07.937Z] > authorizing via signed-in user (6633243421@student.chula.ac.th)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2024-04-24T15:37:07.946Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-24T15:37:07.946Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-24T15:37:07.947Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":9999}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-04-24T15:37:07.952Z] [hub] writing locator at C:\Users\Viroj\AppData\Local\Temp\hub-githubactiondemo-8aba2.json
+[debug] [2024-04-24T15:37:07.969Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/githubactiondemo-8aba2/sites 
+[debug] [2024-04-24T15:37:08.841Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/githubactiondemo-8aba2/sites 200
+[debug] [2024-04-24T15:37:08.842Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/githubactiondemo-8aba2/sites {"sites":[{"name":"projects/githubactiondemo-8aba2/sites/githubactiondemo-8aba2","defaultUrl":"https://githubactiondemo-8aba2.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2024-04-24T15:37:08.842Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/githubactiondemo-8aba2/webApps/-/config [none]
+[debug] [2024-04-24T15:37:09.606Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/githubactiondemo-8aba2/webApps/-/config 200
+[debug] [2024-04-24T15:37:09.607Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/githubactiondemo-8aba2/webApps/-/config {"projectId":"githubactiondemo-8aba2","storageBucket":"githubactiondemo-8aba2.appspot.com","apiKey":"AIzaSyDZ1c1y-LBikZXq49PH5R95BVdIditbZWk","authDomain":"githubactiondemo-8aba2.firebaseapp.com","messagingSenderId":"707178289584"}
+[debug] [2024-04-24T15:37:09.616Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/githubactiondemo-8aba2 [none]
+[debug] [2024-04-24T15:37:09.920Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/githubactiondemo-8aba2 200
+[debug] [2024-04-24T15:37:09.921Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/githubactiondemo-8aba2 {"projectId":"githubactiondemo-8aba2","projectNumber":"707178289584","displayName":"githubActionDemo","name":"projects/githubactiondemo-8aba2","resources":{"hostingSite":"githubactiondemo-8aba2"},"state":"ACTIVE","etag":"1_d472963f-9cdf-4054-bc7a-8a11b9fdb5dd"}
+[info] i  hosting[githubactiondemo-8aba2]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[githubactiondemo-8aba2]: Local server: http://127.0.0.1:9999 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:9999\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:9999 │
+└──────────┴────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
