@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 name: Node Continuous Integration
 
 on:
@@ -16,3 +17,23 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
+||||||| 498a81e
+=======
+name: Node Continuous Integration
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test_pull_request:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+>>>>>>> 29e9cd1c08c9c4f94577a05a988ef1e0f53d8e02
