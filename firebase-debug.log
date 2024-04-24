@@ -1,45 +1,107 @@
-[debug] [2024-04-24T15:37:07.818Z] ----------------------------------------------------------------------
-[debug] [2024-04-24T15:37:07.820Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Viroj\Documents\CUCedt\softwareEng\GitHubActionPractice\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
-[debug] [2024-04-24T15:37:07.821Z] CLI Version:   13.7.4
-[debug] [2024-04-24T15:37:07.821Z] Platform:      win32
-[debug] [2024-04-24T15:37:07.821Z] Node Version:  v20.11.1
-[debug] [2024-04-24T15:37:07.821Z] Time:          Wed Apr 24 2024 22:37:07 GMT+0700 (Indochina Time)
-[debug] [2024-04-24T15:37:07.821Z] ----------------------------------------------------------------------
+[debug] [2024-04-24T17:07:17.279Z] ----------------------------------------------------------------------
+[debug] [2024-04-24T17:07:17.282Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Viroj\Documents\CUCedt\softwareEng\GitHubActionPractice\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-04-24T17:07:17.282Z] CLI Version:   13.7.4
+[debug] [2024-04-24T17:07:17.282Z] Platform:      win32
+[debug] [2024-04-24T17:07:17.282Z] Node Version:  v20.11.1
+[debug] [2024-04-24T17:07:17.282Z] Time:          Thu Apr 25 2024 00:07:17 GMT+0700 (Indochina Time)
+[debug] [2024-04-24T17:07:17.283Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2024-04-24T15:37:07.937Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2024-04-24T15:37:07.937Z] > authorizing via signed-in user (6633243421@student.chula.ac.th)
-[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
-[debug] [2024-04-24T15:37:07.946Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-04-24T15:37:07.946Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-04-24T15:37:07.947Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":9999}]},"metadata":{"message":"assigned listening specs for emulators"}}
-[debug] [2024-04-24T15:37:07.952Z] [hub] writing locator at C:\Users\Viroj\AppData\Local\Temp\hub-githubactiondemo-8aba2.json
-[debug] [2024-04-24T15:37:07.969Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/githubactiondemo-8aba2/sites 
-[debug] [2024-04-24T15:37:08.841Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/githubactiondemo-8aba2/sites 200
-[debug] [2024-04-24T15:37:08.842Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/githubactiondemo-8aba2/sites {"sites":[{"name":"projects/githubactiondemo-8aba2/sites/githubactiondemo-8aba2","defaultUrl":"https://githubactiondemo-8aba2.web.app","type":"DEFAULT_SITE"}]}
-[debug] [2024-04-24T15:37:08.842Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/githubactiondemo-8aba2/webApps/-/config [none]
-[debug] [2024-04-24T15:37:09.606Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/githubactiondemo-8aba2/webApps/-/config 200
-[debug] [2024-04-24T15:37:09.607Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/githubactiondemo-8aba2/webApps/-/config {"projectId":"githubactiondemo-8aba2","storageBucket":"githubactiondemo-8aba2.appspot.com","apiKey":"AIzaSyDZ1c1y-LBikZXq49PH5R95BVdIditbZWk","authDomain":"githubactiondemo-8aba2.firebaseapp.com","messagingSenderId":"707178289584"}
-[debug] [2024-04-24T15:37:09.616Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/githubactiondemo-8aba2 [none]
-[debug] [2024-04-24T15:37:09.920Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/githubactiondemo-8aba2 200
-[debug] [2024-04-24T15:37:09.921Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/githubactiondemo-8aba2 {"projectId":"githubactiondemo-8aba2","projectNumber":"707178289584","displayName":"githubActionDemo","name":"projects/githubactiondemo-8aba2","resources":{"hostingSite":"githubactiondemo-8aba2"},"state":"ACTIVE","etag":"1_d472963f-9cdf-4054-bc7a-8a11b9fdb5dd"}
-[info] i  hosting[githubactiondemo-8aba2]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
-[info] +  hosting[githubactiondemo-8aba2]: Local server: http://127.0.0.1:9999 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:9999\u001b[22m\u001b[24m"}}
-[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[debug] [2024-04-24T17:07:17.349Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-24T17:07:17.350Z] > authorizing via signed-in user (6633243421@student.chula.ac.th)
 [info] 
-┌─────────────────────────────────────────────────────────────┐
-│ ✔  All emulators ready! It is now safe to connect your app. │
-└─────────────────────────────────────────────────────────────┘
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
 
-┌──────────┬────────────────┐
-│ Emulator │ Host:Port      │
-├──────────┼────────────────┤
-│ Hosting  │ 127.0.0.1:9999 │
-└──────────┴────────────────┘
-  Emulator Hub running at 127.0.0.1:4400
-  Other reserved ports: 4500
+You're about to initialize a Firebase project in this directory:
 
-Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
- 
-[info] i  hosting: 127.0.0.1 - - [24/Apr/2024:15:37:16 +0000] "GET / HTTP/1.1" 200 385 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [24/Apr/2024:15:37:16 +0000] \"GET / HTTP/1.1\" 200 385 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
-[info] i  hosting: 127.0.0.1 - - [24/Apr/2024:15:37:16 +0000] "GET /bundle.js HTTP/1.1" 200 - "http://127.0.0.1:9999/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [24/Apr/2024:15:37:16 +0000] \"GET /bundle.js HTTP/1.1\" 200 - \"http://127.0.0.1:9999/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
-[info] i  hosting: 127.0.0.1 - - [24/Apr/2024:15:37:16 +0000] "GET /pug.jpg HTTP/1.1" 200 770433 "http://127.0.0.1:9999/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [24/Apr/2024:15:37:16 +0000] \"GET /pug.jpg HTTP/1.1\" 200 770433 \"http://127.0.0.1:9999/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
+  C:\Users\Viroj\Documents\CUCedt\softwareEng\GitHubActionPractice
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Account Setup
+[info] 
+[info] Which account do you want to use for this project? Choose an account or add a new one now
+[info] 
+[debug] [2024-04-24T17:07:43.565Z] setProjectAccount(C:\Users\Viroj\Documents\CUCedt\softwareEng\GitHubActionPractice, zumachang54@gmail.com)
+[info] 
+[info] +  Using account: zumachang54@gmail.com 
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-04-24T17:07:43.576Z] Using project from CLI flag: hosting:github
+[debug] [2024-04-24T17:07:43.578Z] > refreshing access token with scopes: []
+[debug] [2024-04-24T17:07:43.580Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-04-24T17:07:43.580Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-04-24T17:07:43.785Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-04-24T17:07:43.786Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-04-24T17:07:43.793Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hosting:github [none]
+[debug] [2024-04-24T17:07:44.600Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hosting:github 403
+[debug] [2024-04-24T17:07:44.601Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hosting:github {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-04-24T17:07:44.601Z] HTTP Error: 403, The caller does not have permission
+[debug] [2024-04-24T17:07:44.720Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Viroj\Documents\CUCedt\softwareEng\GitHubActionPractice\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Viroj\Documents\CUCedt\softwareEng\GitHubActionPractice\node_modules\firebase-tools\lib\apiv2.js:299:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project hosting:github. Please make sure the project exists and your account has permission to access it.
+[debug] [2024-04-24T17:08:50.921Z] ----------------------------------------------------------------------
+[debug] [2024-04-24T17:08:50.923Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Viroj\Documents\CUCedt\softwareEng\GitHubActionPractice\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-04-24T17:08:50.924Z] CLI Version:   13.7.4
+[debug] [2024-04-24T17:08:50.924Z] Platform:      win32
+[debug] [2024-04-24T17:08:50.924Z] Node Version:  v20.11.1
+[debug] [2024-04-24T17:08:50.924Z] Time:          Thu Apr 25 2024 00:08:50 GMT+0700 (Indochina Time)
+[debug] [2024-04-24T17:08:50.924Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-24T17:08:51.008Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-24T17:08:51.009Z] > authorizing via signed-in user (zumachang54@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Viroj\Documents\CUCedt\softwareEng\GitHubActionPractice
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Account Setup
+[info] 
+[info] Which account do you want to use for this project? Choose an account or add a new one now
+[info] 
+[debug] [2024-04-24T17:08:56.663Z] setProjectAccount(C:\Users\Viroj\Documents\CUCedt\softwareEng\GitHubActionPractice, 6633243421@student.chula.ac.th)
+[info] 
+[info] +  Using account: 6633243421@student.chula.ac.th 
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-04-24T17:08:56.673Z] Using project from CLI flag: hosting:github
+[debug] [2024-04-24T17:08:56.675Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hosting:github [none]
+[debug] [2024-04-24T17:08:57.317Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hosting:github 403
+[debug] [2024-04-24T17:08:57.318Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hosting:github {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-04-24T17:08:57.318Z] HTTP Error: 403, The caller does not have permission
+[debug] [2024-04-24T17:08:57.442Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Viroj\Documents\CUCedt\softwareEng\GitHubActionPractice\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Viroj\Documents\CUCedt\softwareEng\GitHubActionPractice\node_modules\firebase-tools\lib\apiv2.js:299:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project hosting:github. Please make sure the project exists and your account has permission to access it.
